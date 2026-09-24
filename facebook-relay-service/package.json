@@ -1,0 +1,16 @@
+{
+  "name": "fb-autopilot-relay",
+  "version": "1.0.0",
+  "description": "Lightweight Facebook Graph API relay - forwards a video URL to Facebook so the post request comes from a trusted Railway IP, without the video's bytes ever passing through this service.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^2.4.0"
+  }
+}
